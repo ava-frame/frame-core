@@ -14,22 +14,5 @@
             <version>4.2.5.RELEASE</version>
         </dependency>
     </dependencies>
-    <!--maven private treasury-->
-    <repositories>
-        <repository>
-            <id>changhong</id>
-            <name>Local Central Repo</name>
-            <url>http://maven.tinyvoice.net:8003/repository/public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </repository>
-    </repositories>
-    <distributionManagement>
-        <repository>
-            <id>rcsReleases</id>
-            <name>rcsReleases Repositories</name>
-            <url>http://maven.tinyvoice.net:8003/repository/rcsReleases/</url>
-        </repository>
-    </distributionManagement>
+ 
 </project>
